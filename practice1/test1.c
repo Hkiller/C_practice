@@ -11,7 +11,7 @@ int main(){
 	int x,y;
 	for(y = 0; y < h; y++){
 		for(x = 0; x < w; x++){
-			printf(f(x, y)? "*" : " ");
+			printf(f(x, y)? "* " : "  ");
 		}
 		puts("");
 	}
